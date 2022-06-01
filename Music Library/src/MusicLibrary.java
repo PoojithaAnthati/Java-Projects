@@ -111,11 +111,9 @@ public class MusicLibrary {
         }
     }
 
-    public void printArtists() {
-        Set<Integer> artistsInfo = artists.keySet();
-        for(Integer artistId : artistsInfo) {
-            System.out.println("ArtistId: " + artistId +
-                               "Artistname: " + "getName()");
-        }
+    public void printArtists(){
+        artists.forEach((artistId, artist) ->{
+            System.out.println("ArtistId: " + artistId + "  ArtistName: "+artist.getName());
+        });
     }
 }
