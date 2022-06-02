@@ -1,5 +1,3 @@
-# My-Projects
-
 # Java Projects
 
 1. Music Library Application
